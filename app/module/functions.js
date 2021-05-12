@@ -34,3 +34,14 @@ const fcf = function (){
 }
 
 console.log(fcf()); //ƒ () {}
+
+/*
+Statements that begin with function are considered to be function declarations; 
+by wrapping this function within (), it becomes a function expression which can then be executed with the subsequent (). 
+These functions are not exposed in the global scope and you can even omit its name if you do not need to 
+reference itself within the body.
+
+
+
+
+*/

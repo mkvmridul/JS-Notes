@@ -94,4 +94,4 @@ Notes.prototype = Object.create(Book.prototype);
 Notes.prototype.constructor = Notes; 
 
 let n1 = new Notes(1,'road to failure','mridul', 2019);
-console.log(n1);
+console.log(n1.getSummary());
